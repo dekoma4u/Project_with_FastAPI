@@ -6,7 +6,7 @@ from models import Gender, User, Role, UserUpdateRequest
 
 app = FastAPI()
 
-db : List[User] = [ 
+db : List[User] = [
     User(
         id=UUID("f7948ddf-3dd5-4331-b403-7403a8af82ff"),
         first_name="Ugoo",
