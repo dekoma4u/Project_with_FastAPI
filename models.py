@@ -26,3 +26,4 @@ class UserUpdateRequest(BaseModel):
     middle_name: Optional[str]
     roles : Optional[List[Role]]
     
+#The end
